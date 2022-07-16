@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Voting System</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>College Voting System</h1>
+
+        <h3>Register</h3>
+
+        <div class="registration">
+
+            <label>Student ID:</label>
+            <input type="text" name="Student ID" placeholder="22J45A0516"> <br><br>
+
+            <label>email:</label>
+            <input type="email" name="Email" pattern="^[a-z A-Z 0-9 ./#$%^&*!?+=-]@[a-z A-Z]+(.[a-z A-Z])*$"
+                placeholder="name@email.com" required><br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password" pattern='^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+=-[]{}?/|\:;<>.,])
+            .{8,32}$' placeholder="At least 8 letters" required> <br><br>
+
+            <label>Confirm Password:</label>
+            <input type="password" name="password" pattern='^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+=-[]{}?/|\:;<>.,])
+        .{8,32}$' placeholder="At least 8 letters" required><br><br>
+
+            <label>Role</label><br>
+            <select name='role'>
+                <option value='Voter'>Voter</option>
+                <option value='Group'>Group</option>
+            </select><br><br>
+
+            <div class="btn">
+                <input type="button" name="Register" id="Register" value="Register">
+            </div>
+
+        </div>    
+        <!-- <button type="submit" class="submit-btn">Register</button> -->
+
+
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>
